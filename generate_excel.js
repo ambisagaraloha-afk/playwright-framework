@@ -16,6 +16,7 @@ const XLSX = require('xlsx');
 const testCases = [
   {
     TestCaseId: 'TC-001',
+    'Page Name': 'Home Page',
     TestCaseName: 'Verify Home Page Loads Successfully',
     Descriptive: 'Validate that the DemoBlaze home page loads without errors and displays all key elements',
     Category: 'UI/Navigation',
@@ -28,6 +29,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-002',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'Verify Product Categories Display',
     Descriptive: 'Validate that all product categories are displayed on the home page',
     Category: 'Product Browsing',
@@ -40,6 +42,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-003',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'Filter Products by Category - Phones',
     Descriptive: 'Validate filtering functionality for Phones category',
     Category: 'Product Browsing',
@@ -52,6 +55,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-004',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'Filter Products by Category - Laptops',
     Descriptive: 'Validate filtering functionality for Laptops category',
     Category: 'Product Browsing',
@@ -64,6 +68,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-005',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'Filter Products by Category - Monitors',
     Descriptive: 'Validate filtering functionality for Monitors category',
     Category: 'Product Browsing',
@@ -76,6 +81,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-006',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'View Product Details',
     Descriptive: 'Validate that clicking on a product displays its details',
     Category: 'Product Browsing',
@@ -88,6 +94,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-007',
+    'Page Name': 'Cart Page',
     TestCaseName: 'Add Product to Cart',
     Descriptive: 'Validate that products can be added to shopping cart',
     Category: 'Shopping Cart',
@@ -100,6 +107,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-008',
+    'Page Name': 'Cart Page',
     TestCaseName: 'View Shopping Cart',
     Descriptive: 'Validate that shopping cart displays added products correctly',
     Category: 'Shopping Cart',
@@ -112,6 +120,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-009',
+    'Page Name': 'Cart Page',
     TestCaseName: 'Remove Product from Cart',
     Descriptive: 'Validate that products can be removed from shopping cart',
     Category: 'Shopping Cart',
@@ -124,6 +133,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-010',
+    'Page Name': 'Checkout Page',
     TestCaseName: 'Proceed to Checkout',
     Descriptive: 'Validate checkout process initiation',
     Category: 'Checkout',
@@ -136,6 +146,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-011',
+    'Page Name': 'Login Page',
     TestCaseName: 'Sign Up - Valid Data',
     Descriptive: 'Validate user account creation with valid credentials',
     Category: 'Authentication',
@@ -148,6 +159,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-012',
+    'Page Name': 'Login Page',
     TestCaseName: 'Sign Up - Duplicate Username',
     Descriptive: 'Validate system behavior when signing up with existing username',
     Category: 'Authentication',
@@ -160,6 +172,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-013',
+    'Page Name': 'Login Page',
     TestCaseName: 'Login - Valid Credentials',
     Descriptive: 'Validate user login with valid credentials',
     Category: 'Authentication',
@@ -172,6 +185,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-014',
+    'Page Name': 'Login Page',
     TestCaseName: 'Login - Invalid Credentials',
     Descriptive: 'Validate system behavior with invalid login credentials',
     Category: 'Authentication',
@@ -184,6 +198,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-015',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'Product Carousel Navigation - Next',
     Descriptive: 'Validate next button functionality in product carousel',
     Category: 'UI/Navigation',
@@ -196,6 +211,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-016',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'Product Carousel Navigation - Previous',
     Descriptive: 'Validate previous button functionality in product carousel',
     Category: 'UI/Navigation',
@@ -208,6 +224,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-017',
+    'Page Name': 'Checkout Page',
     TestCaseName: 'Place Order - Complete Checkout',
     Descriptive: 'Validate complete order placement process',
     Category: 'Checkout',
@@ -220,6 +237,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-018',
+    'Page Name': 'Home Page',
     TestCaseName: 'Verify About Us Page',
     Descriptive: 'Validate About Us page content and accessibility',
     Category: 'UI/Navigation',
@@ -232,6 +250,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-019',
+    'Page Name': 'Home Page',
     TestCaseName: 'Verify Contact Information',
     Descriptive: 'Validate contact information is displayed in footer',
     Category: 'UI/Navigation',
@@ -244,6 +263,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-020',
+    'Page Name': 'Login Page',
     TestCaseName: 'Logout Functionality',
     Descriptive: 'Validate user logout functionality',
     Category: 'Authentication',
@@ -256,6 +276,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-021',
+    'Page Name': 'Cart Page',
     TestCaseName: 'Add Multiple Products to Cart',
     Descriptive: 'Validate adding multiple products to cart',
     Category: 'Shopping Cart',
@@ -268,6 +289,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-022',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'Search Functionality',
     Descriptive: 'Validate product search functionality',
     Category: 'Product Browsing',
@@ -280,6 +302,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-023',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'Verify Product Price Display',
     Descriptive: 'Validate product price display format',
     Category: 'Product Browsing',
@@ -292,6 +315,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-024',
+    'Page Name': 'Category/Product Page',
     TestCaseName: 'Verify Product Images Load',
     Descriptive: 'Validate product images load correctly',
     Category: 'UI/Navigation',
@@ -304,6 +328,7 @@ const testCases = [
   },
   {
     TestCaseId: 'TC-025',
+    'Page Name': 'Home Page',
     TestCaseName: 'Responsive Design - Mobile View',
     Descriptive: 'Validate responsive design on mobile devices',
     Category: 'UI/Navigation',
@@ -319,12 +344,13 @@ const testCases = [
 // Create workbook and worksheet
 const wb = XLSX.utils.book_new();
 const ws = XLSX.utils.json_to_sheet(testCases, {
-  header: ['TestCaseId', 'TestCaseName', 'Descriptive', 'Category', 'Preconditions', 'Priority', 'TestData', 'Steps for execution', 'ExpectedResult', 'Status']
+  header: ['TestCaseId', 'Page Name', 'TestCaseName', 'Descriptive', 'Category', 'Preconditions', 'Priority', 'TestData', 'Steps for execution', 'ExpectedResult', 'Status']
 });
 
 // Set column widths
 ws['!cols'] = [
   { wch: 12 },  // TestCaseId
+  { wch: 20 },  // Page Name
   { wch: 35 },  // TestCaseName
   { wch: 40 },  // Descriptive
   { wch: 20 },  // Category

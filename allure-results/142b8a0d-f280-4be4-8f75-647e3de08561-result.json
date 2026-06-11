@@ -1,0 +1,63 @@
+{
+  "uuid": "142b8a0d-f280-4be4-8f75-647e3de08561",
+  "historyId": "69c44d06-f555-401c-bf87-280fe384c922",
+  "name": "TC-004: Filter Products by Category - Laptops",
+  "fullName": "DemoBlaze Test Cases TC1-TC5.TC-004: Filter Products by Category - Laptops",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781181089509,
+  "stop": 1781181094309,
+  "duration": 4800,
+  "description": "Test case execution for TC-004: Filter Products by Category - Laptops",
+  "descriptionHtml": "<p>Test case execution for TC-004: Filter Products by Category - Laptops</p>",
+  "steps": [
+    {
+      "name": "Click on Laptops category",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1781181089509,
+      "stop": 1781181091409
+    },
+    {
+      "name": "Verify laptops products are displayed",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1781181089509,
+      "stop": 1781181091009
+    },
+    {
+      "name": "Verify at least one laptop product is visible",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1781181089509,
+      "stop": 1781181090909
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "DemoBlaze Test Cases TC1-TC5"
+    },
+    {
+      "name": "host",
+      "value": "LOCAL"
+    },
+    {
+      "name": "thread",
+      "value": "1"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "typescript"
+    }
+  ],
+  "links": [],
+  "shouldDisplayFile": false,
+  "testStage": "finished"
+}

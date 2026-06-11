@@ -1,0 +1,63 @@
+{
+  "uuid": "ca7da86e-044c-4dc0-8ff1-5c5453952945",
+  "historyId": "35b37abd-5e9a-4601-a980-bad99ba2c1c3",
+  "name": "TC-003: Filter Products by Category - Phones",
+  "fullName": "DemoBlaze Test Cases TC1-TC5.TC-003: Filter Products by Category - Phones",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781181089507,
+  "stop": 1781181094607,
+  "duration": 5100,
+  "description": "Test case execution for TC-003: Filter Products by Category - Phones",
+  "descriptionHtml": "<p>Test case execution for TC-003: Filter Products by Category - Phones</p>",
+  "steps": [
+    {
+      "name": "Click on Phones category",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1781181089507,
+      "stop": 1781181091507
+    },
+    {
+      "name": "Verify phones products are displayed",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1781181089507,
+      "stop": 1781181091007
+    },
+    {
+      "name": "Verify at least one phone product is visible",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1781181089507,
+      "stop": 1781181091107
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "DemoBlaze Test Cases TC1-TC5"
+    },
+    {
+      "name": "host",
+      "value": "LOCAL"
+    },
+    {
+      "name": "thread",
+      "value": "1"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "typescript"
+    }
+  ],
+  "links": [],
+  "shouldDisplayFile": false,
+  "testStage": "finished"
+}

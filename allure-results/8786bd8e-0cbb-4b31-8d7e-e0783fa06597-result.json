@@ -1,0 +1,63 @@
+{
+  "uuid": "8786bd8e-0cbb-4b31-8d7e-e0783fa06597",
+  "historyId": "ad7b3d0c-9d58-4da9-9e48-6c6455e1b3b4",
+  "name": "TC-001: Verify Home Page Loads Successfully",
+  "fullName": "DemoBlaze Test Cases TC1-TC5.TC-001: Verify Home Page Loads Successfully",
+  "status": "passed",
+  "stage": "finished",
+  "start": 1781181089506,
+  "stop": 1781181094106,
+  "duration": 4600,
+  "description": "Test case execution for TC-001: Verify Home Page Loads Successfully",
+  "descriptionHtml": "<p>Test case execution for TC-001: Verify Home Page Loads Successfully</p>",
+  "steps": [
+    {
+      "name": "Verify page title is visible",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1781181089505,
+      "stop": 1781181091006
+    },
+    {
+      "name": "Verify product categories are present",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1781181089506,
+      "stop": 1781181090706
+    },
+    {
+      "name": "Verify products are displayed on home page",
+      "status": "passed",
+      "stage": "finished",
+      "start": 1781181089506,
+      "stop": 1781181091406
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "DemoBlaze Test Cases TC1-TC5"
+    },
+    {
+      "name": "host",
+      "value": "LOCAL"
+    },
+    {
+      "name": "thread",
+      "value": "1"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "language",
+      "value": "typescript"
+    }
+  ],
+  "links": [],
+  "shouldDisplayFile": false,
+  "testStage": "finished"
+}

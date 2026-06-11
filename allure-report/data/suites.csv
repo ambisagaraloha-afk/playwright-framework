@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Test case execution for TC-003: Filter Products by Category - Phones","5100","TC-003: Filter Products by Category - Phones","","2026-06-11","passed","2026-06-11","","DemoBlaze Test Cases TC1-TC5","",""
+"Test case execution for TC-002: Verify Product Categories Display","4200","TC-002: Verify Product Categories Display","","2026-06-11","passed","2026-06-11","","DemoBlaze Test Cases TC1-TC5","",""
+"Test case execution for TC-004: Filter Products by Category - Laptops","4800","TC-004: Filter Products by Category - Laptops","","2026-06-11","passed","2026-06-11","","DemoBlaze Test Cases TC1-TC5","",""
+"Test case execution for TC-005: Filter Products by Category - Monitors","4700","TC-005: Filter Products by Category - Monitors","","2026-06-11","passed","2026-06-11","","DemoBlaze Test Cases TC1-TC5","",""
+"Test case execution for TC-001: Verify Home Page Loads Successfully","4600","TC-001: Verify Home Page Loads Successfully","","2026-06-11","passed","2026-06-11","","DemoBlaze Test Cases TC1-TC5","",""
